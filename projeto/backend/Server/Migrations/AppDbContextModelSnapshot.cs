@@ -51,11 +51,12 @@ namespace Server.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Name")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("ProductTypeID");
 
-                    b.ToTable("ProductType");
+                    b.ToTable("ProductTypes");
                 });
 
             modelBuilder.Entity("Domain.Product", b =>

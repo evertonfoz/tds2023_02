@@ -12,6 +12,17 @@ builder.Services.AddDbContext<AppDbContext>(
         builder.Configuration.GetConnectionString("DefaultConnection")
         )
     );
+builder.Services.AddCors(options =>
+    {
+        options.AddPolicy("AllowFlutterWebApp",
+            builder=> {
+                builder.WithOrigins("*")
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+            }
+        );
+    }
+);
 
 var app = builder.Build();
 
@@ -25,6 +36,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowFlutterWebApp");
 
 
 // app.MapGet("/products", () =>

@@ -11,11 +11,13 @@ public class AppDbContext : DbContext
         
     }
     public DbSet<Product> Products { get; set; }
+    public DbSet<ProductType> ProductTypes { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.ApplyConfiguration(new ProductConfiguration());
+        modelBuilder.ApplyConfiguration(new ProductTypeConfiguration());
     }
 
 }
