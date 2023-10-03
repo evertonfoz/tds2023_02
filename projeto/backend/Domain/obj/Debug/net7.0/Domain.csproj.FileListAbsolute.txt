@@ -1,7 +1,6 @@
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/bin/Debug/net7.0/Domain.deps.json
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/bin/Debug/net7.0/Domain.dll
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/bin/Debug/net7.0/Domain.pdb
-/Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/obj/Debug/net7.0/Domain.csproj.AssemblyReference.cache
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/obj/Debug/net7.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/obj/Debug/net7.0/Domain.AssemblyInfoInputs.cache
 /Users/evertoncoimbradearaujo/Documents/GitHub/tds2023_02/projeto/backend/Domain/obj/Debug/net7.0/Domain.AssemblyInfo.cs

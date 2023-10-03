@@ -23,7 +23,7 @@ public class ProductTypeController : ControllerBase
     public async Task<ActionResult<ProductType>> CreateProductTypeAsync(
         [FromBody] ProductType productType) {
             if (productType == null) {
-                return BadRequest("Invali product type data");
+                return BadRequest("Invalid product type data");
             }
 
             _appDbContext.ProductTypes.Add(productType);
